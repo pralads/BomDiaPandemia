@@ -97,7 +97,7 @@ void DesenhaNumeroloop (const long limite) {
  * para escolher o case
  */
 void imprimeImagemAleatoria () {
-    int selecao = (int) random (0,100)%11;
+    int selecao = (int) random (0,100)%12;
     switch (selecao) {
       case 0:
       digBitmap (tagskull);
@@ -106,9 +106,9 @@ void imprimeImagemAleatoria () {
       digBitmap (skullinvert);
       break;
       case 2:
-//      digBitmap (tagbolso);
-//      break;
-//      case 3:
+      digBitmap (tagbolso);
+      break;
+      case 3:
       digBitmap (genocida);
       break;
       case 4:
